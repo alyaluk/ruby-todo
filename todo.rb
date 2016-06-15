@@ -1,8 +1,6 @@
-x = 0
 $list = []
 $completed_list = []
 IO.foreach('todo.txt') do |line|
-	x += 1
 	$list << line
 end
 
